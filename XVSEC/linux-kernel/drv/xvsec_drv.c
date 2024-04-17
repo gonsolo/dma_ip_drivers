@@ -363,6 +363,8 @@ static const struct file_operations xvsec_gen_fops = {
 };
 
 
+int xvsec_initialize(struct pci_dev *pdev, struct context *dev_ctx);
+
 int xvsec_initialize(struct pci_dev *pdev, struct context *dev_ctx)
 {
 	int ret = 0;
@@ -406,6 +408,8 @@ int xvsec_initialize(struct pci_dev *pdev, struct context *dev_ctx)
 	return ret;
 }
 EXPORT_SYMBOL_GPL(xvsec_initialize);
+
+int xvsec_deinitialize(struct context *dev_ctx);
 
 int xvsec_deinitialize(struct context *dev_ctx)
 {
