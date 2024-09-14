@@ -1,7 +1,7 @@
 # Xilinx DMA IP Reference drivers
 
 These drivers were taken from <https://github.com/Xilinx/dma_ip_drivers> and
-updated for the latest kernel (6.8.9). They work on Arch Linux as of 2024-05-09.
+updated for the latest kernel (6.10.9). They work on Arch Linux as of 2024-09-14.
 
 # Build and install
 
