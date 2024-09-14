@@ -12,5 +12,7 @@ updated for the latest kernel (6.10.9). They work on Arch Linux as of 2024-09-14
 `sudo rmmod xdma`
 `sudo modprobe xdma poll_mode=1 interrupt_mode=2` or just `sudo modprobe xdma`
 
+I had to boot with kernel parameters `pci=nomsi` because of `config bar not found`.
+
 To use it as a non-root user:
 `sudo chmod a+rw /dev/xdma0_*`
