@@ -5,7 +5,7 @@ updated for the latest kernel (6.11.1). They work on Arch Linux as of 2024-10-02
 
 # Build and install
 
-`cd xdma/xdma'
+`cd xdma/xdma`
 `sudo make -j8 clean install`
 
 # Use
